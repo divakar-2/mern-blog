@@ -23,7 +23,7 @@ function Header() {
                 <FaMoon/>
             </Button>
             <Link to='/sign-in'>
-                <Button gradientDuoTone='purpleToBlue'>
+                <Button gradientDuoTone='purpleToBlue' outline>
                     Sign In
                 </Button>
             </Link>
@@ -40,7 +40,6 @@ function Header() {
                     <Link to='/projects'>Projects</Link>
                 </Navbar.Link>
         </Navbar.Collapse>
-        
     </Navbar>
   )
 }
